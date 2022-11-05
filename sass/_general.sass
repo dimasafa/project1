@@ -1,0 +1,480 @@
+header
+    position: relative
+
+nav
+    height: 50px
+    background-color: #212121
+    .menu
+        display: flex
+        justify-content: space-between
+        padding: 13px 70px
+        margin: 0
+        list-style-type: none
+        .menu_link
+            color: #ffffff
+            font-size: 15px
+            font-weight: 300
+            text-align: left
+            text-decoration: none
+        .menu_item
+            border-right: 2px dotted black
+            padding-right: 40px
+            &:last-child
+                border-right: none
+
+.hamburger
+    display: none
+
+.subheader
+    position: absolute
+    width: 100%
+    height: 84px
+    background-color: rgba(0, 0, 0, 0.6)
+    &_logo
+        display: block
+        margin-top: 16px
+        max-width: 100%
+    &_official
+        opacity: 0.5
+        color: #ffffff
+        font-size: 13px
+        font-weight: 400
+        text-align: left
+    &_call
+        margin-top: 18px
+        color: #ffffff
+        font-size: 12px
+        font-weight: 300
+        text-align: right
+    &_phone
+        display: block
+        color: #ffffff
+        font-size: 22px
+        font-weight: 400
+        text-align: right
+        text-transform: uppercase
+        text-decoration: none
+    &_xs-visible
+        display: none
+
+
+    &_btn
+        margin-top: 19px
+        width: 172px
+        height: 46px
+        box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.12)
+        border: none
+        background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+        border-radius: 5px
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+        color: #ffffff
+        font-size: 14px
+        font-weight: 400
+        text-align: center
+        text-transform: uppercase
+        +btn_hover
+
+
+
+.promo
+    min-height: 799px
+    background: url('../maket/Teil-1/background_menu3.png') center center/cover no-repeat
+    padding: 151px 0 135px 0
+    &_header
+        font-size: 60px
+        font-weight: 700
+        color: #ffffff
+        text-align: center
+        margin-bottom: 0
+    &_subheader
+        font-size: 36px
+        font-weight: 400
+        color: #ffffff
+        text-align: center
+        margin-bottom: 0
+    &_descr
+        margin-top: 23px
+        color: #ffffff
+        font-size: 18px
+        font-weight: 400
+        line-height: 24px
+        text-align: center
+    &_btn
+        display: block
+        margin: 0 auto
+        margin-top: 118px
+        width: 259px
+        height: 63px
+        box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.12)
+        border: none
+        background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+        border-radius: 5px
+
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+        color: #ffffff
+        font-size: 18px
+        font-weight: 400
+        text-align: center
+        text-transform: uppercase
+        +btn_hover
+
+.reason
+    min-height: 900px
+    &_block
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+        margin-top: 71px
+        width: 112px
+        height: 24px
+        background-color: #000000
+        &_text
+            color: #ffffff
+            font-size: 11px
+            font-weight: 400
+            text-align: center
+            text-transform: uppercase
+    &_header
+        margin-top: 38px
+        color: #222222
+        font-size: 38px
+        font-weight: 700
+        text-align: center
+        text-transform: uppercase
+    
+    &_pack
+        display: flex
+        margin-top: 35px
+        .reason_img
+            padding: 10px 26px 0 35px
+        .reason_text1
+            color: #1eacc7
+            font-size: 17px
+            font-weight: 400
+        .reason_text2
+            color: #202020
+            font-size: 15px
+            font-weight: 400
+            line-height: 21px
+            text-align: justify
+
+.mobil
+    min-height: 864px
+    padding: 48px 0 79px 0
+    background: url('../maket/Teil-3/background.png') center center/cover no-repeat
+    &_block
+        margin: 0 auto
+        padding: 5px 12px
+        width: 112px
+        height: 24px
+        background-color: #000000
+        &_text
+            color: #ffffff
+            font-size: 11px
+            font-weight: 300
+            text-align: center
+            text-transform: uppercase
+    &_header
+        margin-top: 38px
+        color: #222222
+        font-size: 38px
+        font-weight: 700
+        text-align: center
+        text-transform: uppercase
+    h3
+        margin-top: 19px
+        color: #222222
+        font-size: 17px
+        font-weight: 400
+        text-align: center
+    .row
+        margin-top: 32px
+    &_pack
+        position: relative
+        width: 320px
+        height: 280px
+        margin: 0 auto
+        margin-bottom: 19px
+        &_1
+            background: url('../maket/Teil-3/img_1.png') center center/cover no-repeat
+        &_2
+            background: url('../maket/Teil-3/img_2.png') center center/cover no-repeat
+        &_3
+            background: url('../maket/Teil-3/img_3.png') center center/cover no-repeat
+        &_4
+            background: url('../maket/Teil-3/img_4.png') center center/cover no-repeat        
+        &_5
+            background: url('../maket/Teil-3/img_5.png') center center/cover no-repeat
+        &_6
+            background: url('../maket/Teil-3/img_6.png') center center/cover no-repeat
+        &_text
+            padding-top: 92px
+            color: #ffffff
+            font-size: 24px
+            font-weight: 400
+            line-height: 31px
+            text-align: center
+            text-transform: uppercase
+        &_round
+            position: absolute
+            display: flex
+            width: 100%
+            justify-content: center
+            align-items: center
+            width: 26px
+            height: 26px
+            background-color: #000000
+            margin: 0 auto
+            border-radius: 100%
+            padding: 6px
+            bottom: 35px
+            left: 50%
+            transform: translateX(-50%)
+            cursor: pointer
+            &:before
+                content: ''
+                display: block
+                width: 14px
+                height: 2px
+                background-color: $main-color
+            &:after
+                content: ''
+                position: absolute
+                display: block
+                width: 2px
+                height: 14px
+                background-color: $main-color
+                left: 50%
+                transform: translateX(-50%)
+            &:hover
+                &:before, &:after
+                    background-color: $second-color
+                    transition: 0.5s all
+
+.uber
+    min-height: 896px
+    padding: 57px
+    background: url('../maket/Teil-4/background.png') center center/cover no-repeat
+    &_block
+        margin: 0 auto
+        padding: 5px 12px
+        width: 112px
+        height: 24px
+        background-color: #ffffff
+        &_text
+            color: #070716
+            font-size: 11px
+            font-weight: 400
+            text-align: center
+            text-transform: uppercase
+    &_title
+        margin-top: 32px
+        color: #ffffff
+        font-size: 38px
+        font-weight: 700
+        text-align: center
+        text-transform: uppercase
+    &_subtitle
+        margin-top: 19px
+        color: #ffffff
+        font-size: 17px
+        font-weight: 400
+        text-align: center
+    &_bild
+        text-align: center
+        padding: 58px
+    &_text
+        color: #222222
+        font-size: 17px
+        font-weight: 300
+        text-align: center
+        padding-bottom: 138px
+
+
+.require
+    min-height: 919px
+    padding: 68px 0 84px 0
+    &_block
+        margin: 0 auto
+        padding: 4px 13px
+        width: 112px
+        height: 24px
+        background-color: #000000
+        &_text
+            color: #ffffff
+            font-size: 11px
+            font-weight: 300
+            text-align: center
+            text-transform: uppercase
+    &_header
+        margin-top: 33px
+        color: #222222
+        font-size: 38px
+        font-weight: 700
+        text-align: center
+        text-transform: uppercase
+    &_pack
+        margin: 33px 0
+        &_nmb
+            margin-bottom: 0px
+    &_title
+        color: #1ca8c3
+        font-size: 22px
+        font-weight: 400
+        text-align: left
+    &_list
+        list-style-type: none
+        padding-left: 50px
+        margin-top: 22px
+        li
+            position: relative
+            font-size: 17px
+            font-weight: 300
+            color: #222222
+            line-height: 24px
+            margin-bottom: 10px
+            &::before
+                content: ''
+                display: block
+                position: absolute
+                left: -32px
+                top: 13px
+                transform: translateY(-50%)
+                width: 21px
+                height: 20px
+                background: url('../maket/Teil-5/blau_ja.png') center center/cover no-repeat
+    &_descr
+        color: #1ca8c3
+        font-size: 17px
+        font-weight: 400
+    .warning
+        .require_title
+            color: $second-color
+        li
+             &::before
+                content: ''
+                background: url('../maket/Teil-5/rot_ja.png') center center/cover no-repeat
+
+.karte
+    min-height: 717px
+    background: url('../maket/Teil-6/background.png') center center/cover no-repeat
+    padding: 49px 0 
+    &_block
+        margin: 0 auto
+        padding: 4px 13px
+        width: 76px
+        height: 24px
+        background-color: #ffffff
+        &_text
+            color: #070716
+            font-size: 11px
+            font-weight: 400
+            text-align: center
+            text-transform: uppercase
+    &_title
+        margin-top: 32px
+        color: #ffffff
+        font-size: 38px
+        font-weight: 700
+        text-align: center
+        text-transform: uppercase
+    &_subtitle
+        margin-top: 20px
+        color: #ffffff
+        font-size: 17px
+        font-weight: 400
+        text-align: center
+    &_link
+        margin-top: 486px
+        text-align: center
+        &_text
+            text-decoration: none
+            color: #1fbad6
+            font-size: 15px
+            font-weight: 400
+            text-align: center
+            text-transform: uppercase
+
+.bottom
+    position: relative
+    min-height: 156px
+    padding-top: 14px
+    &_blauline
+        width: 299px
+        height: 4px
+        background-color: #1fbad6
+        margin: 0 auto
+    &_box1
+        width: 364px
+        height: 20px
+        margin: 0 auto
+        margin-top: 34px
+        &_line1
+            display: flex
+            justify-content: space-between
+            a
+                text-decoration: none
+                .bottom_first_text
+                    color: #070716
+                    font-size: 15px
+                    font-weight: 300
+                    text-align: left
+                    text-transform: uppercase
+                .bottom_first_text_2
+                    color: #070716
+                    font-size: 15px
+                    font-weight: 300
+                    text-align: left
+                    text-transform: uppercase
+                    vertical-align: top
+    &_box2
+        width: 390px
+        height: 10px
+        margin: 0 auto
+        margin-top: 7px
+        &_line2
+            display: flex
+            justify-content: space-between
+            a
+                text-decoration: none
+                .bottom_second_text
+                    color: #999999
+                    font-size: 11px
+                    font-weight: 300
+                    text-align: left
+                    text-transform: uppercase
+    a
+        text-decoration: none
+        .bottom_third_text
+            display: block
+            margin: 0 auto
+            color: #1fbad6
+            font-size: 11px
+            font-weight: 400
+            text-align: center
+            text-transform: uppercase
+            margin-top: 19px
+    &_blackline
+        width: 100%
+        height: 8px
+        background-color: #070716
+        margin-top: 31px
+    &_linkbox1
+        position: absolute
+        margin-left: 23px
+        margin-top: -120px
+        width: 153px
+        height: 32px
+        display: flex
+        justify-content: space-between
+    &_linkbox2
+        position: absolute
+        margin-left: 1425px
+        margin-top: -120px
+        width: 298px
+        height: 27px
+        display: flex
+        justify-content: space-between
+
+    
